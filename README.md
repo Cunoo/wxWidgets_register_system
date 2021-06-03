@@ -2,6 +2,7 @@
  This is my first (GUI) project,
  Programing language: C++,SQL;
  	Database : MYSQL
+  programs: DBeaver, Code::Blocks
 
 
 
