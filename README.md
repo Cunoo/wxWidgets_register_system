@@ -2,7 +2,7 @@
 This is my first (GUI) project
 # What i use
   Programing languages: C++,SQL;
- 	Database : MYSQL
+ 	Database : MYSQL;
   programs: DBeaver, Code::Blocks
 
 # SCREENSHOTS
