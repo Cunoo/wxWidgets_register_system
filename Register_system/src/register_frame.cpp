@@ -54,7 +54,7 @@ void register_frame::button_accept_clicked(wxCommandEvent &event)
     ///CONNECT TO DB
         MYSQL * conn = mysql_init(NULL);
 
-    conn = mysql_real_connect(conn, "127.0.0.1", "cuno123", "password", "AMI", 3306, NULL, 0);
+    conn = mysql_real_connect(conn, "YourIP(Local IP is 127.0.0.1", "username DB", "password DB", "NAME OF DB", 3306, NULL, 0);
     if(!conn) {
     wxLogMessage("failed to connect database");
     }
