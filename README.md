@@ -8,7 +8,7 @@ This is my first (GUI) project
 #	Database
   MYSQL
   
-# programs
+# Programs
   DBeaver, Code::Blocks
   
 # OS
