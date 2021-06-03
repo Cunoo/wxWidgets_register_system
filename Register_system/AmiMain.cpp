@@ -124,7 +124,7 @@ void AmiFrame::LoginIn_button(wxCommandEvent &event){
     ///CONNECT TO DB
     MYSQL * conn = mysql_init(NULL);
 
-    conn = mysql_real_connect(conn, "127.0.0.1", "cuno123", "password", "AMI", 3306, NULL, 0);
+    conn = mysql_real_connect(conn, "yourIP(if local 127.0.0.1)", "username for DB", "password for DB", "NAME_OF_DATABASE", 3306, NULL, 0);
     if(!conn) {
         wxLogMessage("failed to connect database");
     }
