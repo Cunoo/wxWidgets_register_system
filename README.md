@@ -1,9 +1,18 @@
 # wxWidgets_register_system
 This is my first (GUI) project
 # What i use
-  Programing languages: C++,SQL;
- 	Database : MYSQL;
-  programs: DBeaver, Code::Blocks
+
+# Programing languages
+  C++,SQL
+  
+#	Database
+  MYSQL
+  
+# programs
+  DBeaver, Code::Blocks
+  
+# OS
+  Ubuntu 20.04.2 LTS
 
 # SCREENSHOTS
 
