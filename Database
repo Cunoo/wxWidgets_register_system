@@ -5,3 +5,10 @@ CREATE TABLE `users` (
   PRIMARY KEY (`id`),
   UNIQUE KEY `users_UN` (`username`)
 ) ENGINE=InnoDB AUTO_INCREMENT=21 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci
+
+
+AFTER CREATE DATABASE SEARCH:
+  AmiFrame::LoginIn_button(wxCommandEvent &event) search and change username,password,IP,DBNAME;
+  
+SAME HERE: 
+  register_frame::button_accept_clicked(wxCommandEvent &event)
